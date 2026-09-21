@@ -2,21 +2,15 @@
 
 # 🚀 Dashboard Mirota (Frontend System)
 
-<!-- ANIMASI GIF: Pilih salah satu link di bawah ini atau gunakan link gambar GIF kamu sendiri -->
-<!-- Opsi A: Animasi Peluncuran Roket (Cocok untuk Deployment) -->
-<img src="https://raw.githubusercontent.com/Codelessly/Flutter-Loading-Kit/master/samples/cupertino_activity_indicator.gif" width="60" alt="Loading Animation" />
-
-<!-- ATAU Opsi B: Animasi Teks "BUILDING" (Ganti link berikut dengan URL gambar GIF kamu) -->
-<!-- <img src="https://your-image-hosting.com/your-animated-text.gif" alt="Building Status" /> -->
-
-<br>
+<!-- ANIMASI TEKS BERGERAK OTOMATIS -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&height=50&lines=INTERNAL+ACCESS+ONLY!+PT+Mirota+KSM+;Dashboard+Web+untuk+Pantau+Data+Kantor;Frontend+React+%2B+Vite+%2B+Backend+Lokal!" alt="Typing Animation" />
 
 <p>
   <img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-success?style=for-the-badge&logo=git&logoColor=white" alt="Status" />
   <img src="https://img.shields.io/badge/DEPLOY-VERCEL-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 </p>
 
-> *Sistem antarmuka modern, cepat, dan responsif yang dirancang khusus untuk mempermudah monitoring serta manajemen operasional harian perusahaan Mirota.*
+> *INTERNAL ACCESS ONLY - PT MIROTA KSM*
 
 ---
 
@@ -34,37 +28,39 @@
 
 ---
 
-## 📖 Tentang Project
-**Dashboard Mirota** adalah aplikasi berbasis web yang dikembangkan untuk menyajikan data operasional secara *real-time*. Project ini mengadopsi arsitektur terdistribusi di mana sisi *frontend* di-hosting secara online melalui **Vercel** agar dapat diakses dengan cepat dari mana saja, sementara sistem *backend* dan penyimpanan datanya dikelola secara lokal menggunakan **PHP native serta phpMyAdmin** di komputer kantor.
+## 📌 Apa Sih Project Ini?
+**Dashboard Mirota** itu semacam halaman website terpusat yang sengaja dibuat buat mantau berbagai data kantor secara *real-time*. 
+
+Biar kerjanya enak, tampilannya (depan/frontend) kita online-in pakai **Vercel** biar gampang diakses lewat browser mana aja. Nah, kalau urusan simpan-menyimpan data di belakang layar (backend), kita pakai **PHP & phpMyAdmin** yang jalannya offline di komputer kantor. Jadi aman terkendali!
 
 ---
 
-## 🛠️ Tech Stack & Alat yang Digunakan
-Pembangunan aplikasi ini didukung oleh teknologi modern demi memastikan performa yang optimal, aman, serta fleksibel untuk dikembangkan di masa depan:
-* **Frontend Library (React.js):** Digunakan untuk membangun komponen antarmuka pengguna (*UI*) yang dinamis dan modular.
-* **Programming Language (TypeScript):** Membantu penulisan kode yang lebih ketat secara tipe data (*type-safe*) guna meminimalisir potensi *bug*.
-* **Build Tool (Vite):** Menyediakan server *development* kilat serta proses *bundling* file yang sangat cepat.
-* **Styling & UI Design:** Desain tata letak yang bersih dan responsif di berbagai ukuran perangkat.
-* **Cloud Deployment (Vercel):** Platform hosting otomatis yang memperbarui halaman web setiap kali ada pembaruan kode di GitHub.
-* **Backend & Database (PHP & phpMyAdmin):** Mengelola logika server lokal serta penyimpanan basis data perusahaan.
-* **Version Control (Git & GitHub):** Sinkronisasi kode yang rapi antara laptop pengembang dan komputer kantor.
+## 🛠️ Senjata & Alat Perang yang Dipakai
+Biar website-nya gak lemot dan enak di-ulik, kita pakai susunan teknologi ini:
+* **React.js:** Buat nyusun tampilan halaman web biar dinamis dan gampang diatur per bagian.
+* **TypeScript:** Biar kodingannya lebih rapi, aman dari error konyol, dan gampang dibaca.
+* **Vite:** Alat pembangun (*bundler*) yang bikin proses nge-load kodingan jadi super ngebut.
+* **Vercel:** Tempat nongkrong website kita secara online. Tiap kali kita update kode di GitHub, webnya bakal otomatis 
+ganti sendiri tanpa ribet.
+* **PHP & phpMyAdmin:** Pengelola data lokal yang nyambung langsung di komputer kantor.
+* **Git & GitHub:** Tempat nyimpen dan nyambungin kodingan biar bisa dikerjain bareng-bareng.
 
 ---
 
-## ✨ Fitur-Fitur Utama Dashboard
-Sistem dashboard ini dilengkapi dengan berbagai modul dan fungsionalitas untuk mendukung kebutuhan operasional kantor:
-1. **Real-Time Monitoring:** Memantau aliran data dan indikator penting perusahaan secara langsung lewat web.
-2. **Manajemen Jadwal Operasional:** Fitur terstruktur untuk melihat, mengatur, dan memonitor jadwal kegiatan harian.
-3. **Modul Downtime Tracking:** Pencatatan dan memantauan waktu berhenti (*downtime*) atau kendala mesin/sistem secara akurat.
-4. **Manajemen Sparepart & Inventaris:** Membantu memantau ketersediaan stok komponen serta suku cadang penting.
-5. **Data Supplier & Mitra:** Pusat informasi data rekanan dan supplier perusahaan.
-6. **Responsive Layout:** Antarmuka yang menyesuaikan secara otomatis saat dibuka melalui komputer, laptop, maupun perangkat tablet.
+## ✨ Fitur-Fitur Seru di Dalamnya
+Di dalam dashboard ini, udah disediain beberapa menu andalan buat ngebantu kerjaan kantor:
+1. **Monitoring Data Langsung:** Bisa intip-intip data penting perusahaan secara *live* lewat layar.
+2. **Jadwal Kegiatan:** Buat ngecek dan ngatur jadwal harian biar gak ada yang terlewat.
+3. **Catatan Kendala (Downtime):** Buat nyatet kalau pas ada mesin atau sistem yang lagi ngadat/berhenti beroperasi.
+4. **Stok Sparepart:** Ngecek ketersediaan suku cadang atau barang-barang penting di gudang.
+5. **Data Supplier:** Daftar info lengkap soal rekanan atau pihak luar yang kerja sama.
+6. **Tampilan Responsif:** Mau dibuka lewat laptop, komputer, atau tablet, tampilannya bakal tetep pas dan gak berantakan.
 
 ---
 
-## ⚙️ Cara Menjalankan Project di Komputer Lokal (Development)
-Bagi developer atau staf yang ingin melakukan pengeditan kodingan di komputer kantor, ikuti langkah-langkah di terminal/VS Code berikut:
+## 💻 Cara Menjalankan Project di Komputer Kantor
+Buat kamu yang mau mulai ngedit atau ngembangin kodingannya langsung dari komputer kantor, tinggal buka terminal/VS Code terus ketik perintah santai ini:
 
-1. **Clone repository ini ke komputer lokal:**
+1. **Download/Clone project-nya dari GitHub:**
    ```bash
    git clone [https://github.com/Setdans/dashboard-mirota.git](https://github.com/Setdans/dashboard-mirota.git)
